@@ -41,7 +41,7 @@ Foi estabelecido um processo padronizado conectando os computadores físicos ao 
 📈 **Impacto de Negócios e Horas Economizadas:**
 A transformação dos dados em um dashboard centralizado permitiu consultas em tempo real, gerando resultados operacionais imediatos:
 
-- ⏳ **~48 Horas Economizadas por Ciclo de Auditoria:**
+- ⏳ **~10 Horas Economizadas por Ciclo de Auditoria:**
   O mapeamento do parque tecnológico exigia horas de trabalho manual para verificação de patrimônio e seção. Hoje, a verificação do inventário e a contagem de modelos específicos é feita visualmente no painel em segundos, liberando a equipe para tarefas analíticas e HelpDesk.
 
 - 🛡️ **Prevenção e Migração Ágil (Windows 11):**
