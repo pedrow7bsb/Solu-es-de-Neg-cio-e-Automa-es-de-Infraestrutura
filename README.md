@@ -1,4 +1,4 @@
-# Solu-es-de-Neg-cio-e-Automa-es-de-Infraestrutura
+# Soluções de Negócio e Automações de Infraestrutura
 Construção de fluxos de trabalho e agentes de IA para eliminar tarefas manuais e otimizar operações no setor de TI
 
 🏢 **Gestão Automatizada de Ativos e Identidade (GLPI + Active Directory):**
