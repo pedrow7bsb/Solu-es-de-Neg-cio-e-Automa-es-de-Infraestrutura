@@ -12,6 +12,8 @@ O projeto culminou na criação de um painel de controle interativo que elimina 
 <img width="1590" height="613" alt="image" src="https://github.com/user-attachments/assets/b73a5fd5-66fd-4505-8358-598765487346" />
 
 
+
+
 🚩**O Desafio Operacional (Antes):**
 Devido às restrições de segurança do domínio militar, o controle da infraestrutura de TI da diretoria dependia de auditorias manuais. O processo apresentava gargalos críticos de produtividade:
 
