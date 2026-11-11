@@ -4,7 +4,13 @@ Construção de fluxos de trabalho e agentes de IA para eliminar tarefas manuais
 🏢 **Gestão Automatizada de Ativos e Identidade (GLPI + Active Directory):**
 
 **Resumo Executivo:**
-Integração de infraestrutura implementada no 7°CTA para unificar o gerenciamento de parque tecnológico e gestão de identidades. A solução orquestra o Active Directory e o GLPI para automatizar o rastreamento de hardware, otimizar fluxos de onboarding/offboarding de colaboradores e centralizar a telemetria de segurança em um ambiente de rede com rigorosos requisitos de acesso militar.
+Integração de infraestrutura implementada em uma diretoria administrativa do Exército para unificar o gerenciamento de parque tecnológico e gestão de identidades. A solução orquestra o Active Directory e o GLPI para automatizar o rastreamento de hardware, otimizar fluxos de onboarding/offboarding de colaboradores e centralizar a telemetria de segurança em um ambiente de rede com rigorosos requisitos de acesso militar.
+
+📊 **Dashboard Funcional e Visão Macro:**
+O projeto culminou na criação de um painel de controle interativo que elimina a necessidade de planilhas manuais. Atualmente, o sistema monitora em tempo real 81 computadores, 157 monitores e 2 impressoras. A categorização granular permite visualizar instantaneamente a distribuição por fabricante (com predominância de 67 máquinas da Dell Inc.) e modelos específicos, destacando a alocação de 44 estações do modelo Precision e 52 monitores DELL P2319H.
+
+<img width="1590" height="613" alt="image" src="https://github.com/user-attachments/assets/b73a5fd5-66fd-4505-8358-598765487346" />
+
 
 🚩**O Desafio Operacional (Antes):**
 Devido às restrições de segurança do domínio militar, o controle da infraestrutura de TI da diretoria dependia de auditorias manuais. O processo apresentava gargalos críticos de produtividade:
@@ -34,13 +40,13 @@ Foi estabelecido um processo padronizado conectando os computadores físicos ao 
 A transformação dos dados em um dashboard centralizado permitiu consultas em tempo real, gerando resultados operacionais imediatos:
 
 - ⏳ **~48 Horas Economizadas por Ciclo de Auditoria:**
-  O mapeamento do parque tecnológico (estimado em 200 máquinas) exigia aproximadamente 50 horas de trabalho manual para verificação de hardware, patrimônio e seção. Hoje, a mesma verificação é feita gerando um relatório no GLPI em menos de 5 minutos, liberando a equipe de TI para tarefas analíticas.
+  O mapeamento do parque tecnológico exigia dezenas de horas de trabalho manual para verificação de patrimônio e seção. Hoje, a verificação do inventário e a contagem de modelos específicos (como as torres HP Z230 ou monitores Philips) é feita visualmente no painel em segundos, liberando a equipe para tarefas analíticas.
 
 - 🛡️ **Prevenção e Migração Ágil (Windows 11):**
-  Através dos filtros de software do GLPI, foi possível identificar instantaneamente todos os terminais rodando Windows 10. Isso permitiu o planejamento e a execução de uma estratégia de migração antecipada para o Windows 11 antes do fim do suporte oficial em 2026, mitigando riscos de segurança da informação.
+  Através dos filtros de software do GLPI, foi possível identificar instantaneamente todos os terminais rodando Windows 10. Isso permitiu o planejamento e a execução de uma estratégia de migração antecipada para o Windows 11 antes do fim do suporte oficial em 2026, mitigando riscos.
 
 - 💰 **Otimização de Orçamento e Remanejamento:**
-  A capacidade de cruzar a "Seção", "Nome do Usuário" e "Hardware" viabilizou o remanejamento estratégico de ativos. Máquinas ociosas de alta performance foram redirecionadas para usuários com necessidades gráficas ou de processamento intensivo, evitando aquisições desnecessárias e fundamentando estudos técnicos para novas licitações.
+  A capacidade de cruzar a "Seção", "Nome do Usuário" e o "Modelo do Computador" (ex: mapeando as workstations Precision de alta performance) viabilizou o remanejamento estratégico. Máquinas ociosas foram redirecionadas para usuários com necessidades gráficas, evitando aquisições desnecessárias
 
 - 🔒 **Conformidade de Segurança:**
   Geração de relatórios programados para auditar painéis de controle e identificar máquinas ativas na rede que estejam com o serviço de antivírus desabilitado ou desatualizado.
