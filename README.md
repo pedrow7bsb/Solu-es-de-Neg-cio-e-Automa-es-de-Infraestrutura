@@ -42,7 +42,7 @@ Foi estabelecido um processo padronizado conectando os computadores físicos ao 
 A transformação dos dados em um dashboard centralizado permitiu consultas em tempo real, gerando resultados operacionais imediatos:
 
 - ⏳ **~48 Horas Economizadas por Ciclo de Auditoria:**
-  O mapeamento do parque tecnológico exigia dezenas de horas de trabalho manual para verificação de patrimônio e seção. Hoje, a verificação do inventário e a contagem de modelos específicos (como as torres HP Z230 ou monitores Philips) é feita visualmente no painel em segundos, liberando a equipe para tarefas analíticas.
+  O mapeamento do parque tecnológico exigia horas de trabalho manual para verificação de patrimônio e seção. Hoje, a verificação do inventário e a contagem de modelos específicos é feita visualmente no painel em segundos, liberando a equipe para tarefas analíticas e HelpDesk.
 
 - 🛡️ **Prevenção e Migração Ágil (Windows 11):**
   Através dos filtros de software do GLPI, foi possível identificar instantaneamente todos os terminais rodando Windows 10. Isso permitiu o planejamento e a execução de uma estratégia de migração antecipada para o Windows 11 antes do fim do suporte oficial em 2026, mitigando riscos.
